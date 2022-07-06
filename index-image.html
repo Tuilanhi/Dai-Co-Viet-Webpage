@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tuilanhi - Links</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+VANTA.BIRDS({
+    el: "#vanta",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundAlpha: 0.0,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    wingSpan: 40.00,
+    separation: 100.00,
+    alignment: 82.00,
+    quantity: 1.00,
+    color1: 0xeda62d,
+    color2: 0xf0ca16
+  })
+
+  setTimeout(() =>{
+    const main = document.querySelector("main")
+    main.style.opacity = 1
+    main.style.filter = "blur(0px)"
+  }, 1000)
+})
+</script>
+  </head>
+  <body>
+    <div id="vanta"></div>
+    <main>
+      <header>
+        <img src="./images/profile.png" />
+        <h1>Đại Cồ Việt
+        </h1>
+      </header>
+      <ul>
+        <li>
+          <a href="https://whop.com/products/daicovietllc/home" />
+          <img src="./images/homepage.svg" alt="Homepage" width="20" />
+          Official Website
+        </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/DaiCoViet102" />
+          <img src="./images/twitter.svg" alt="Twitter" width="20" />
+          Twitter
+        </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/daicoviet102" >
+            <img src="./images/facebook.svg.png" alt="Facebook" width="20" />
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://docs.google.com/forms/d/1oMrfA_xR2MaEpxqVFqPw5mLv_rD80dTNqmn5Emhh8Tc" >
+            <img src="./images/form.png" alt="Application" width="20" />
+            Application Form Vietnamese
+          </a>
+        </li>
+        <li>
+          <a href="https://docs.google.com/forms/d/1r33Wr4hkolRQPYl3uWjdv-hTh8g749jmZobTKvxarCk">
+            <img src="./images/form.png" alt="Application" width="20" />
+            Application Form English
+          </a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
