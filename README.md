@@ -1,2 +1,2 @@
 # Dai-Co-Viet-Webpage
-This is the website for Sneakers Cook Group Dai Co Viet
+This is the website for Sneakers Group Dai Co Viet
